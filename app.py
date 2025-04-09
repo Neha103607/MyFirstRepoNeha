@@ -88,3 +88,16 @@ def testpage():
     </html>
     """
     return greetings
+
+@app.route("/testpagelovely")
+def testpage1():
+    greetings = """
+    <html>
+    <body>
+
+    <h1>This is a test page 1 by lovely</h1>
+
+    </body>
+    </html>
+    """
+    return greetings
